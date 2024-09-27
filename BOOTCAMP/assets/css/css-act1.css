@@ -1,0 +1,78 @@
+.header1{
+  color: purple;
+  font-weight: 900;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 2px 3px #d45645;
+  letter-spacing: 5px;
+}
+
+.word{
+  font-weight: bold;
+  text-align: center;
+  word-spacing: 10px;
+}
+
+a{
+  text-decoration: underline;
+}
+
+.header2{
+  font-family: serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.bold-text{
+  font-weight: bold;
+}
+
+.learn-more{
+  color: rgb(235, 27, 27);
+  font-weight: bold;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 1px 2px 4px #ee260b;
+}
+
+.header3{
+  font-family: serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+
+.font-style-oblique{
+  font-style: oblique;
+  font-weight: bold;
+}
+
+.font-weight-bold{
+  font-weight: bold;
+}
+
+.harry-underline{
+  text-decoration: underline;
+  font-style: oblique;
+}
+
+.text-indent-5{
+  text-indent: 1%;
+  display: block;
+}
+
+.text-indent-5em{
+  text-indent: 8%;
+  display: block;
+}
+
+.read-more{
+  color: rgb(240, 24, 24);
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: underline;
+  text-shadow: 1px 2px 4px #ee260b;
+}

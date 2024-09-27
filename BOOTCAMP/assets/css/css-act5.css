@@ -1,0 +1,32 @@
+.whole{
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.container{
+  background-color: white;
+  border-radius: 8px soild black;
+  padding: 50px;
+}
+
+.static{
+  position: static;
+  background-color: rgb(29, 195, 236);
+}
+.relative{
+  position: relative;
+  background-color: green;
+  left: 10px;
+}
+.absolute{
+  background-color: rgb(221, 26, 75);
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.fixed{
+  position: fixed;
+  background-color: pink;
+  bottom: 10px;
+}
