@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <form action="#">
+    <table>
+      <tr>
+        <td><label for="name">Full Name<span>*</span></label></td>
+        <td>
+          <input type="text" id="first_name" name="first-name" placeholder="First Name" required>
+          <input type="text" id="last_name" name="last-name" placeholder="last Name" required>
+        </td>
+      </tr>
+
+    <tr>
+      <td>
+        <label for="university">University<span>*</span></label>
+      </td>
+      <td>
+        <select class="university" required>
+          <option value="select-university">Select University</option>
+          <option value="waseda">Waseda</option>
+          <option value="keio">Keio</option>
+          <option value="sangyonoritsu">Sangyonoritsu</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="university-other">If Other - Please Specify</label>
+      </td>
+      <td>
+      <input type="text" name="university-other" id="university-other">
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="faculty">Faculty<span>*</span></label>
+      </td>
+      <td>
+        <select name="faculty" id="faculty" required>
+          <option value="faculty">Select Faculty</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+        <label for="faculty-other">If Other - Please Specify</label>
+      </td>
+      <td>
+        <input type="text" id="faculty_other" name="faculty-other">
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="year">Academic year of PhD<span>*</span></label>
+      </td>
+      <td>
+        <select name="year" id="year" required>
+          <option value="year">Select Year</option>
+        </select>
+      </td>
+    </tr>
+
+
+      <tr>
+        <td>
+          <p>Where would you like to work?</p>
+        </td>
+        <td>
+          <input type="checkbox" name="academic" id="academic" value="academic">
+          <label for="academic">Academic</label>
+          <br>
+          <input type="checkbox" name="industry" id="industry" value="industry">
+          <label for="industry">Industry</label>
+          <br>
+          <input type="checkbox" name="consultancy" id="consultancy" value="consultancy">
+          <label for="consultancy">Consultancy</label>
+          <br>
+          <input type="checkbox" name="finance" id="finance" value="finance">
+          <label for="finance">Finance</label>
+          <br>
+          <input type="checkbox" name="policy" id="policy" value="policy">
+          <label for="policy">Policy / Government / NGO</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <label for="email">E-mail<span>*</span></label>
+        </td>
+        <td>
+          <input type="email" id="email" name="email" placeholder="ex: myname@gmail.com" required>
+          <br>
+          <input type="email" id="con-email" name="email" placeholder="Confirm Email" required>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <p>Would you like to sign up to our newsletter?</p>
+        </td>
+        <td>
+          <input type="radio" name="yes" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <br>
+          <input type="radio" name="no-already" id="no-already" value="no-already">
+          <label for="no-already">No, I have already signed up</label>
+          <br>
+          <input type="radio" name="no" id="no" value="no">
+          <label for="no">No</label>
+        </td>
+      </tr>
+
+      <tr>
+        <td></td>
+        <td>
+          <input type="submit" name="submit" id="submit" value="submit">
+        </td>
+      </tr>
+    </table>
+  </form>
+</body>
+</html>
